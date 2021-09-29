@@ -22,7 +22,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
     background-color: beige;
 }
 html{
@@ -42,6 +42,7 @@ h1{
 h2{
     font-weight: bold;
     margin: 4%;
+    font-size: 2.5rem;
 }
 .right :hover{
     color: coral;
@@ -114,6 +115,14 @@ nav a:hover{
     position: absolute;
     top: 40%;
 }
+.text{
+    text-align: center;
+}
+.text p{
+    font-size: 2.5rem;
+    max-width: 40%;
+    margin-left:30%;
+}
 /* Information Section style */
 .info p{
     display: block;
@@ -124,7 +133,7 @@ nav a:hover{
     letter-spacing: 3;
     word-spacing:30px;
     font-size: 2rem;
-    color: #E4E6C3;
+    color: gray;
     background-color :#DDB9A3;
     padding: 1%;
 }
@@ -143,6 +152,7 @@ nav a:hover{
     display: block;
    max-width: 20%;
    margin-left: 40%;
+   font-size:2rem;
 }
 .first-section span {
     font-weight: bolder;
@@ -155,24 +165,23 @@ nav a:hover{
 .second-section p{
     max-width: 30%;
     margin-left: 35%;
+    font-size:2rem;
 }
 .car img {  
-        max-width: 20%;  
-        display: block;
-        margin-left:40%;    
+    max-width: 20%;  
+    display: block;
+    margin-left:40%;    
 }
 /* Footer Section Style */
-.mountain img{
-    background-image: url("assets/footer_img.jpg");
-    display: block;
+footer img{
+    display:inline-block;
     width: 100%;
-    height: 800px;
     background-repeat: no-repeat;
-
+}
+footer nav{
+    margin: 0;
 }
 .bottom{
     background-color:#F9E7DC;
-}
-.footer{
-    background-color: #F9E7DC;
+    margin: 0;
 }
