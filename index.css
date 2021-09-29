@@ -1,0 +1,187 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+    /* General Style */
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /* border:1px solid grey; */
+    background-color: beige;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color : #4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+    color:#4f4f4f;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:9rem;
+}
+h2{
+    font-weight: bold;
+    margin: 4%;
+    font-size: 2.5rem;
+}
+.right :hover{
+    color: coral;
+}
+.right p{
+    font-weight: bold;
+}
+a{
+    font-family: 'Chelsea Market', cursive;
+    text-decoration:none;
+}
+span{
+    font-weight: bold;
+}
+section{
+    padding: 4% 0;
+}
+/* header section styles */
+nav{
+    padding: 2% o;
+    margin-top: 2%;
+}
+nav a{
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    text-decoration: solid;
+}
+nav a:hover{
+    color: black;
+    background-color: darkcyan;
+    border: 2px solid black;
+}
+.orange{
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+.blue{
+    background-color: #5ED3EB;
+    margin: 0 24%;
+}
+.yellow{
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+/* title section style */
+.titles{
+    text-align: center;
+    position: relative;
+}
+.left, .right{
+    display: inline-block;
+}
+.left{
+    width:30%;
+    margin-left: 5%;
+}
+.left img{
+    border-radius: 50%;
+}
+.right{
+    width: 55%;
+    margin-left: 5%;
+    
+}
+.right div{
+    position: absolute;
+    top: 40%;
+}
+.text{
+    text-align: center;
+}
+.text p{
+    font-size: 2.5rem;
+    max-width: 40%;
+    margin-left:30%;
+}
+/* Information Section style */
+.info p{
+    display: block;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 3;
+    word-spacing:30px;
+    font-size: 2rem;
+    color: gray;
+    background-color :#DDB9A3;
+    padding: 1%;
+}
+.info :hover{
+    border:2px solid black;
+    color: chocolate;
+    background-color:lavender;
+}
+/* First Section Style */
+.first-section{
+    text-align: center;
+    display: block; 
+    /* font-weight: 550; */
+}
+.first-section p{
+    display: block;
+   max-width: 20%;
+   margin-left: 40%;
+   font-size:2rem;
+}
+.first-section span {
+    font-weight: bolder;
+}
+/* Second Section Style */
+.second-section{
+    display: block;
+    text-align: center;
+}
+.second-section p{
+    max-width: 30%;
+    margin-left: 35%;
+    font-size:2rem;
+}
+.car img {  
+    max-width: 20%;  
+    display: block;
+    margin-left:40%;    
+}
+/* Footer Section Style */
+footer img{
+    display:inline-block;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+footer nav{
+    margin: 0;
+}
+.bottom{
+    background-color:#F9E7DC;
+    margin: 0;
+}
